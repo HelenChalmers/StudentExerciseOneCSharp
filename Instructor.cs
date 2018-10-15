@@ -15,6 +15,12 @@ namespace StudentExercises
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public string FullName {
+            get {
+                return $"{FirstName} {LastName}";
+            }
+        }
         public string SlackHandle { get; set; }
         public Cohort Cohort { get; set; }
         // Constructor  - used to construct an object.
