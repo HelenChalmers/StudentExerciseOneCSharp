@@ -21,6 +21,12 @@ namespace StudentExercises
             
         }
 
+        //this constructor for Dapper to use.  It requires a generic way to create the object  - a parameter less constructor
+        public Exercise ()
+        {
+
+        }
+
     }
 
 }

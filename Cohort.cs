@@ -15,13 +15,18 @@ namespace StudentExercises
 
         public List<Student> Students = new List<Student> ();
 
-        
+        public int Id { get; set; }
 
         public List<Instructor> Instructors = new List<Instructor> ();
 
         public Cohort (string name)
         {
             Name = name;
+            
+        }
+
+        public Cohort ()
+        {
             
         }
 

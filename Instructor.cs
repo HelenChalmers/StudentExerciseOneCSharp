@@ -22,6 +22,8 @@ namespace StudentExercises
             }
         }
         public string SlackHandle { get; set; }
+
+        public int CohortId {get; set; }
         public Cohort Cohort { get; set; }
         // Constructor  - used to construct an object.
         public Instructor (string firstName, string lastName, string slackHandle, Cohort cohort)
@@ -38,6 +40,10 @@ namespace StudentExercises
 
         }
 
+public Instructor ()
+        {
+
+        }
 
 
 
